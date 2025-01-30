@@ -1,0 +1,38 @@
+name: ddds_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - numpy
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - scikit-learn
+  - jupyter-dash
+  - pip:
+    - beautifulsoup4
+    - transformers
+    - openai
+    - ollama
+    - setuptools
+    - langchain
+    - langchain-core
+    - langchain-text-splitters
+    - langchain-openai
+    - langchain-community
+    - langchain-ollama
+    - llama-index
+    - llama-index-embeddings-huggingface
+    - llama-index-llms-ollama
+    - llama-index-vector-stores-qdrant
+    - qdrant-client
+    - llama-index-embeddings-fastembed
+    - ragas
+    - unstructured
+    - einops
+
