@@ -14,6 +14,10 @@ dependencies:
   - matplotlib
   - scikit-learn
   - jupyter-dash
+  - pdfminer.six
+  - pillow
+  - poppler
+  - tesseract
   - pip:
     - beautifulsoup4
     - transformers
@@ -35,4 +39,12 @@ dependencies:
     - ragas
     - unstructured
     - einops
+    - pi_heif
+    - unstructured_pytesseract
+    - unstructured-inference
+    - poppler-utils
+    - pdf2image
+    
+
+
 
